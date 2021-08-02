@@ -1,1 +1,33 @@
-import * as d3 from https://cdn.skypack.dev/d3@7;
+.cell :hover {
+  fill: black;
+}
+
+body {
+  margin: 0;
+  box-sizing: border-box;
+  min-height: 100vh;
+  text-align: center;
+  background-color: #fffa65;
+}
+
+#chart {
+  display: block;
+  margin: 40vh 25vw;
+  transform: translate(-25%, -50%);
+  min-height: 80vh;
+}
+
+#tooltip {
+  position: absolute;
+  min-height: 100px;
+  background-color: #30336b;
+  border-radius: 15px;
+  text-align: center;
+  min-width: 200px;
+  color: #dff9fb;
+}
+
+#title {
+  text-align: center;
+  margin: 5vh 25vw;
+}
